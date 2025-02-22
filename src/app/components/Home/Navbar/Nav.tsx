@@ -32,7 +32,7 @@ const Nav = () => {
               <span className="mr-0.5 -mt-1 font-extrabold text-pink-700 text-3xl ">
                 MY
               </span>
-              <div className="text-lg font-thin uppercase tracking-wider">
+              <div className="text-lg font-bold uppercase tracking-wider">
                 Landing
               </div>
             </Link>
