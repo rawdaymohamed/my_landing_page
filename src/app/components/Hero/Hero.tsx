@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full py-[30vh]">
+    <div className="w-full pt-[30vh] pb-[5vh]">
       <div className="w-[90%] md:w-[80%] lg:w-[70%] mx-auto space-y-10 md:space-y-10 flex flex-col justify-center">
         <div className="flex gap-2 w-full">
           <div className="flex flex-col gap-10 lg:w-2/3">
@@ -21,7 +21,7 @@ const Hero = () => {
                 <h1 className="text-black font-bold leading-tight text-2xl md:text-3xl lg:text-4xl">
                   The premier workspace companion for your daily needs.
                 </h1>
-                <p>
+                <p className="text-gray-600">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Quasi, ea, nobis eos dicta minima aperiam sequi temporibus id
                   expedita tempore, quis hic nesciunt voluptatem quidem tenetur
