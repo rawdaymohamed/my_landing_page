@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/app/components/Hero/Hero";
 import WhyChoose from "../WhyChoose/WhyChoose";
 import FeatureAnalytics from "../FeatureAnalytics/FeatureAnalytics";
+import Features from "../Features/Features";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <WhyChoose />
       <FeatureAnalytics />
+      <Features />
     </div>
   );
 };
