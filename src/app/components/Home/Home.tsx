@@ -3,6 +3,7 @@ import Hero from "@/app/components/Hero/Hero";
 import WhyChoose from "../WhyChoose/WhyChoose";
 import FeatureAnalytics from "../FeatureAnalytics/FeatureAnalytics";
 import Features from "../Features/Features";
+import Review from "./Review/Review";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <WhyChoose />
       <FeatureAnalytics />
       <Features />
+      <Review />
     </div>
   );
 };
