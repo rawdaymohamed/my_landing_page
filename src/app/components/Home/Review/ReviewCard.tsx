@@ -7,7 +7,10 @@ type Props = {
 };
 const ReviewCard = ({ imageURL, name }: Props) => {
   return (
-    <div className="w-full lg:w-[90%] mx-auto p-6 bg-white rounded-lg shadow-lg relative grid grid-cols-1 lg:grid-cols-3 items-center place-items-center gap-10 text-gray-700">
+    <div
+      className="z-1 w-full lg:w-[90%] mx-auto p-6 bg-white rounded-lg shadow-lg relative grid grid-cols-1 lg:grid-cols-3 items-center place-items-center gap-10 text-gray-700"
+      style={{ paddingTop: "12vh" }}
+    >
       <FaQuoteLeft className="size-6 absolute top-1 left-6" />
       <div className=" col-span-1 order-2 lg:order-2 mx-auto">
         <Image

@@ -24,8 +24,8 @@ const responsive = {
 };
 const Review = () => {
   return (
-    <div className="py-16 bg-[#fcf6fa]">
-      <h1 className="text-center text-2xl md:text-3xl font-bold mb-10 text-gray-900">
+    <div className="z-1 py-16 bg-[#fcf6fa]" style={{ paddingTop: "12vh" }}>
+      <h1 className="text-center text-2xl md:text-3xl font-bold mb-10 text-gray-900 ">
         What clients say about us
       </h1>
       <div className="mt-20 w-[90%] md:w-[80%] lg:w-[70%] mx-auto">
