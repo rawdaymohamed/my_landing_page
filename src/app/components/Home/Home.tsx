@@ -5,6 +5,7 @@ import FeatureAnalytics from "../FeatureAnalytics/FeatureAnalytics";
 import Features from "../Features/Features";
 import Review from "./Review/Review";
 import Pricing from "./Pricing/Pricing";
+import Offer from "./Offer/Offer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Features />
       <Review />
       <Pricing />
+      <Offer />
     </div>
   );
 };
