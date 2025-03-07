@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { FaClock, FaPhoneAlt } from "react-icons/fa";
 import { FaMapLocation, FaMessage } from "react-icons/fa6";
+import BottomSection from "./BottomSection";
 
 const Footer = () => {
   return (
@@ -71,6 +72,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      <BottomSection />
     </div>
   );
 };
